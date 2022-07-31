@@ -1,0 +1,97 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  width: 960px;
+  margin: 50px auto;
+}
+
+.list{
+  margin-bottom: 50px;
+}
+
+.list-box{
+  width: 960px;
+  height: 40px;
+}
+
+.list-box:nth-child(odd){
+  background-color: #f2f2f2;
+}
+
+.list-text{
+  line-height: 40px;
+  padding-left: 20px;
+}
+
+.box{
+  height: 680px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box1{
+  width: 30%;
+  height: 200px;
+  margin: 0 5% 40px 0;
+  background-color: orange;
+}
+
+.box2{
+  width: 30%;
+  height: 200px;
+  margin: 0 5% 40px 0;
+  background-color: yellow;
+}
+
+.box3{
+  width: 30%;
+  height: 200px;
+  margin-bottom: 40px;
+  background-color: yellow;
+}
+
+.box4{
+  width: 30%;
+  height: 200px;
+  margin: 0 5% 40px 0;
+  background-color: yellow;
+}
+
+.box5{
+  width: 30%;
+  height: 200px;
+  margin: 0 5% 40px 0;
+  background-color: orange;
+}
+
+.box6{
+  width: 30%;
+  height: 200px;
+  margin-bottom: 40px;
+  background-color: yellow;
+}
+
+.box7{
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  background-color: yellow;
+}
+
+.box8{
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  background-color: yellow;
+}
+
+.box9{
+  width: 30%;
+  height: 200px;
+  background-color: orange;
+}
